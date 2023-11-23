@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <!doctype html>
+        <html lang="ko">
+            <head>
+                <title>기깔나게 Chat GPT 쓰기</title>
+                <meta charset="UTF-8">
+                <link rel="stylesheet" href="Do it! HTML+CSS+자바스크립트 웹 표준의 정석_본문_예제소스_220311\08\css\3column.css">
+                <style>
+                    /* 버튼 이미지를 수직으로 정렬하기 위한 스타일 */
+                   input[type="image"] {
+                     vertical-align: middle;
+                   }
+                   body {
+                    background-color: black;
+                    color: white;
+                    font-family: Arial, sans-serif;
+                   }
+                   #topMenu, #bottomMenu {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    }
+
+                    #topMenu li, #bottomMenu li {
+                    display: inline-block;
+                    margin-right: 20px;
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    color: white;
+                    transition: background-color 0.3s ease;
+                    background-color: #333;
+                    background-color: #333; /* '마이페이지' 버튼 배경색 */
+                    border-radius: 5px;
+                    background-color: #555;
+                    }
+                   </style>
+            </head>
+            <body>
+                <div id="container">
+                    <header id="header">
+                        <h1>인공지능 기깔나게 쓰기</h1>
+                        <nav>
+                            <ul id="topMenu">
+                              <li id="myPageButton"><a href="#">마이페이지</a></li>
+                              <!-- 다른 메뉴 아이템 추가 가능 -->
+                            </ul>
+                          </nav>
+            </header>
+                    <aside id="left-sidebar">
+                        <aside id="right-sidebar">
+                            <h5>로그인</h5>
+                            <form>
+                                <fieldset>
+                                    <label>아이디: <input type="text" id="user_id" size="10"></label>
+                                    <label>비밀번호: <input type="password" id="user_pw" size="10"></label>
+                                    <input type="submit" value="로그인">
+                                </fieldset>
+                            </form>
+                        </aside>
+                            <fieldset>
+                                <legend><strong>학습 단계 설정하기</strong></legend>
+                                <p>기초 단계</p> 
+                                    <input type="radio">
+                                <p>중간 단계</p>
+                                    <input type="radio">
+                                <p>최종 실습 단계</p>
+                                    <input type="radio">
+                            </fieldset>
+                    </aside>
+                    <section id="contents">
+                        <fieldset>
+                            <legend><strong>간단하게 알고 가기</strong></legend>
+                            <ol>
+                                <h4>프롬프트 엔지니어링 이란?</h4>
+                                <li>프롬프트란?</li>
+                                    <p> AGI에서 질문을 입력할 때 이용되는 입력 창을 의미한다.</p>
+                                <li>프롬프트 엔지니어링(Prompt Engineering)이란?</li>
+                                    <p>쉽게 말해서 입력창에 입력을 할 때 인공지능에게서 원하는 답을 얻을 수 있도록 방법을 연구하는 분야이다.</p>
+                            </ol>
+                        </fieldset>
+                    </section>
+                    <footer id="footer">
+                        <section id="bottomMenu">
+                            <ul>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href>사이트맵</a></li>
+                            </ul>
+                    </footer>
+                </div>
+            </body>
+        </html>
